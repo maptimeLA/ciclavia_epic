@@ -8,7 +8,7 @@ $("#infobox").load("html/ciclavia_descriptions.html #"+val);
 //Loads Map    
 L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI4MGU3YmM2NWU3ZTMxOTBmODljMDI3MWVkNzQ3YjI3OCJ9.jAJuygZO4NMXrDULIxKixQ';    
         var map = L.mapbox.map('map', 'mapbox.light',{minZoom:14, maxZoom:18})
-        .setView([34.008060, -118.422275], 15);        
+        .setView([34.008060, -118.422275], 14);        
     
         //URL to Markers
         var landmarkslayer = L.mapbox.featureLayer().addTo(map);
