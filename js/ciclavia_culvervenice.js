@@ -69,7 +69,8 @@ L.imageOverlay(imageURL,imageBounds,{opacity:.5}).addTo(map);
 //Popup to infobox    
     landmarkslayer.on('click',function(e) {
     console.log(e.layer);
-    e.layer.closePopup();    
+    e.layer.closePopup();
+    map.panTo(e.layer.getLatLng());    
     //info.innerHTML = e.layer._popup._content;
     loaddescp(e.layer.feature.properties.ID);
     });
