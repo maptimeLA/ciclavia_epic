@@ -6,7 +6,7 @@ $("#infobox").load("/html/ciclavia_descriptions.html #"+val);
 }    
     
 //Loads Map    
-L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI3RDdhUi1NIn0.jaEqREZw7QQMRafKPNBdmA';    
+L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI4MGU3YmM2NWU3ZTMxOTBmODljMDI3MWVkNzQ3YjI3OCJ9.jAJuygZO4NMXrDULIxKixQ';    
         var map = L.mapbox.map('map', 'mapbox.light',{minZoom:14, maxZoom:18})
         .setView([34.008060, -118.422275], 15);        
     
