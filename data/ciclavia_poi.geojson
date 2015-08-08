@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "1. Culver City Station\/Site of Culver Junction", "Descriptio": null, "ID": 1 }, "geometry": { "type": "Point", "coordinates": [ -118.38972330000001, 34.0281042, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "2. Ince Boulevard\/The Culver Studios", "Descriptio": null, "ID": 2 }, "geometry": { "type": "Point", "coordinates": [ -118.3924967, 34.0244719, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "3. Ivy Substation", "Descriptio": null, "ID": 3 }, "geometry": { "type": "Point", "coordinates": [ -118.3926415, 34.0266993, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "4. The Culver Hotel", "Descriptio": null, "ID": 4 }, "geometry": { "type": "Point", "coordinates": [ -118.39418650000002, 34.0238005, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "5. The Washington Building", "Descriptio": "9718 W. Washington Blvd, Culver City.", "ID": 5 }, "geometry": { "type": "Point", "coordinates": [ -118.3962679, 34.0221555, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "6. Kirk Douglas Theatre\/Culver Theatre", "Descriptio": "9820 W Washington Blvd, Culver City.", "ID": 6 }, "geometry": { "type": "Point", "coordinates": [ -118.39708330000001, 34.0216886, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "7. Sony Pictures Studios\/MGM Studios", "Descriptio": "10202 W Washington Boulevard, Culver City. ", "ID": 7 }, "geometry": { "type": "Point", "coordinates": [ -118.40080620000002, 34.0184918, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "8. La Ballona Elementary School", "Descriptio": "10915 W Washington Blvd, Culver City.", "ID": 8 }, "geometry": { "type": "Point", "coordinates": [ -118.4097648, 34.0132449, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "9. NFL Networks", "Descriptio": "10950 W Washington Blvd, Culver City", "ID": 9 }, "geometry": { "type": "Point", "coordinates": [ -118.4097433, 34.0125424, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "10. King Fahad Mosque", "Descriptio": "10980 Washington Boulevard, Culver City", "ID": 10 }, "geometry": { "type": "Point", "coordinates": [ -118.4103227, 34.0115463, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "11. Tellefson Park\/Site of Culver City Rollerdrome", "Descriptio": "Washington Pl & Bentley Ave, Culver City", "ID": 11 }, "geometry": { "type": "Point", "coordinates": [ -118.41231820000002, 34.0099899, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "12. Tito's Tacos", "Descriptio": "11222 Washington Pl, Culver City ", "ID": 12 }, "geometry": { "type": "Point", "coordinates": [ -118.41460350000001, 34.0082468, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "14. The Mar Vista in Mar Vista", "Descriptio": "Centinela Ave & Rose Ave, Mar Vista", "ID": 14 }, "geometry": { "type": "Point", "coordinates": [ -118.4411573, 34.0145344, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "15. CA Highway 187", "Descriptio": "Venice Boulevard between the 10 Freeway and Lincoln Blvd.", "ID": 15 }, "geometry": { "type": "Point", "coordinates": [ -118.43416210000001, 34.0034707, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "17. Mario's Brothers Market", "Descriptio": "12904 Venice Blvd, Mar Vista", "ID": 17 }, "geometry": { "type": "Point", "coordinates": [ -118.4412861, 33.9995572, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "18. Venice High School", "Descriptio": "13000 Venice Blvd, Venice", "ID": 18 }, "geometry": { "type": "Point", "coordinates": [ -118.44390390000001, 33.9979383, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "19. Old Venice Civic Center", "Descriptio": "681-685 Venice Blvd, Venice", "ID": 19 }, "geometry": { "type": "Point", "coordinates": [ -118.4586936, 33.9913159, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "20. Electric Avenue", "Descriptio": "Electric Ave between Venice Blvd and Brooks Avenue, Venice", "ID": 20 }, "geometry": { "type": "Point", "coordinates": [ -118.45994890000001, 33.9905775, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "21. Abbot Kinney Boulevard", "Descriptio": "Between Washington Way and Main St, Venice", "ID": 21 }, "geometry": { "type": "Point", "coordinates": [ -118.4626257, 33.9891676, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "22. Venice of America Centennial Park", "Descriptio": "Venice Blvd, west of Abbot Kinney Blvd.", "ID": 22 }, "geometry": { "type": "Point", "coordinates": [ -118.4638703, 33.9884114, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "23. Venice Traffic Circle and the Lost Canals", "Descriptio": "Grand and Windward avenues, Venice", "ID": 23 }, "geometry": { "type": "Point", "coordinates": [ -118.4710479, 33.988189, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "24. Windward Hotel\/Pacific Electric Station", "Descriptio": "Pacific and Windward avenues, Venice.", "ID": 24 }, "geometry": { "type": "Point", "coordinates": [ -118.47245340000001, 33.9878021, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "25. Pacific Electric Grand Canal Bridge", "Descriptio": "Grand Canal at Venice Blvd, Venice.", "ID": 25 }, "geometry": { "type": "Point", "coordinates": [ -118.4690416, 33.9850888, 0.0 ] } }
+]
+}
