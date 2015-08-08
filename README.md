@@ -23,7 +23,7 @@ What's left to do...
 Directions for running map locally
 =========
 0. If you're trying to make edits, Make a GitHub account, log in, and make sure you are part of `maptimeLA` group.
-1. Open Terminal and clone this repository by running `git clone https://github.com/maptimeLA/old-la-restaurants`. If you're using the `GitHub App`, click the blue Plus sign on the upper left hand corner, go to `Clone` and find `maptimeLA/old-la-restaurants`
+1. Open Terminal and clone this repository by running `git clone https://github.com/maptimeLA/ciclavia_epic`. If you're using the `GitHub App`, click the blue Plus sign on the upper left hand corner, go to `Clone` and find `maptimeLA/ciclavia_epic`
 2. `cd old-la-restaurants`
 3. `python -m SimpleHTTPServer 8000`
 4. Go to your browser and open `http://localhost:8000/`
