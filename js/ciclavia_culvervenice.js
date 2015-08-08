@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 //Loads HTML Descriptions
 var loaddescp = function(val){
-$("#infobox").load("/html/ciclavia_descriptions.html #"+val);
+$("#infobox").load("html/ciclavia_descriptions.html #"+val);
 }    
     
 //Loads Map    
