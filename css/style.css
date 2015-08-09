@@ -28,6 +28,9 @@ body { margin: 0; padding: 0;}
         overflow:hidden;  
 }
 
+#main {
+padding-bottom: 8px
+}
 #geolocate {
 	background-color:#E86B3E;
 	-moz-border-radius:8px;
@@ -42,7 +45,7 @@ body { margin: 0; padding: 0;}
 	padding:10px 22px;
 	text-decoration:none;
     position: relative;
-    left: 25%;
+    left: 23%;
 }
 #geolocate:hover {
 	background-color:#E86B3E;

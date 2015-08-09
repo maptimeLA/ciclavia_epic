@@ -9,9 +9,22 @@ $("#infobox").load("html/ciclavia_descriptions.html #"+val);
 L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI4MGU3YmM2NWU3ZTMxOTBmODljMDI3MWVkNzQ3YjI3OCJ9.jAJuygZO4NMXrDULIxKixQ';    
         var map = L.mapbox.map('map', 'mapbox.light',{minZoom:14, maxZoom:18})
         .setView([34.008060, -118.422275], 14);        
+
+var imageUrl = 'images/cvr.png',
+    // This is the trickiest part - you'll need accurate coordinates for the
+    // corners of the image. You can find and create appropriate values at
+    // http://maps.nypl.org/warper/ or
+    // http://www.georeferencer.org/
+    imageBounds = L.latLngBounds([
+        [34.04016614759696, -118.47870143796067],
+        [33.972334588465806, -118.35986772721151]]);
+
+var overlay = L.imageOverlay(imageUrl, imageBounds)
+    .addTo(map);  
     
-        //URL to Markers
+//URL to Markers
         var landmarkslayer = L.mapbox.featureLayer().addTo(map);
+        var poilayer = L.mapbox.featureLayer().addTo(map);
         var info = document.getElementById('infobox');
         var blvd ='data/ciclavia_route.geojson';
         var poi ='data/ciclavia_poi.geojson';
@@ -21,7 +34,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI4MGU3YmM2NWU3ZTMxOTBmO
         $.getJSON(blvd, function(data) {
         var blvdlayer = L.geoJson(data, {
                 style:{
-                color: "#E86B3E",
+                color: "#1CA4DE",
                 weight: 5,
                 dashArray:"3,8",
                 opacity:1,
@@ -56,16 +69,9 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiY3J1emluNzN2dyIsImEiOiI4MGU3YmM2NWU3ZTMxOTBmO
         onEachFeature: function (data, layer) {
         layer.bindLabel(data.properties.Name,{noHide:true});
         }
-        }).addTo(landmarkslayer);
+        }).addTo(poilayer);
         });
             
-     
-/*    
-//Add image overlay
-var imageURL='images/floatlabel-05.png', imageBounds =[[34.145500,-118.147236],[34.141806,-118.121470]];
-L.imageOverlay(imageURL,imageBounds,{opacity:.5}).addTo(map);
-*/ 
-
 //Popup to infobox    
     landmarkslayer.on('click',function(e) {
     console.log(e.layer);
@@ -74,6 +80,14 @@ L.imageOverlay(imageURL,imageBounds,{opacity:.5}).addTo(map);
     //info.innerHTML = e.layer._popup._content;
     loaddescp(e.layer.feature.properties.ID);
     });
+    
+//Popup Poly to infobox    
+    poilayer.on('click',function(e) {
+    console.log(e.layer);
+    e.layer.closePopup();    
+    //info.innerHTML = e.layer._popup._content;
+    loaddescp(e.layer.feature.properties.ID);
+    });    
     
 //Walking Radius Style
 var walkrad={
